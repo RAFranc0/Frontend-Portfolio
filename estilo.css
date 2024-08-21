@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background-img: url(/images/bg-login.webp) ;
+}
+
+main {
+    width: 100%;
+    height: 100dvh;
+    max-height: 100dvh;
+    background-image: var(--background-img);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#index-main p {
+    margin: 5px;
+}
+
+#index-main-texto {
+    margin-bottom: 10px;
+}
+
+#login-box {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+#login-box label,
+#login-btn-box,
+#login-form p {
+    margin-top: 20px;
+}
