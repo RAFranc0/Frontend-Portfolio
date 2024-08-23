@@ -12,6 +12,20 @@
 </head>
 
 <body>
+    <div id="alerta-custom" class="alert-container">
+        <div class="alert-box">
+            <p id="alertMessage">Teste</p>
+            <button class="btn-login" id="close-alert">Ok</button>
+        </div>
+    </div>
+
+    <div class="popup-exp" id="popup-exp">
+        <div class="popup-box">
+            <p>Essa página foi desenvolvida para aplicar o efeito glassmorphism no form de login.</p>
+            <button class="btn btn-dark fechar-popup" id="fechar-popup" onclick="fecharPopup()">Ok!</button>
+        </div>
+    </div>
+
     <main class="d-flex flex-column justify-content-center align-items-center" id="index-main">
         <h1 class="fs-4">Bem-vindo ao meu portifolio frontend</h1>
         <div class="text-center" id="index-main-texto">
@@ -29,7 +43,7 @@
                 <input class="form-control" type="password" name="senha" id="senha" required>
 
                 <div class="d-flex justify-content-center align-itens-center" id="login-btn-box">
-                    <button class="btn btn-secondary" type="button" onclick="validarLogin()">Login</button>
+                    <button class="btn-login" type="button" onclick="validarLogin()">Login</button>
                 </div>
 
                 <p class="text-center">-> Use acesso/acesso</p>
